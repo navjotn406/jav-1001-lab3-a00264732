@@ -28,4 +28,8 @@ class die {
         val random = Random()
         currentsideUp = random.nextInt(sidesCount) + 1
     }
+
+    fun setHighestValue(noOfSides: Int){
+        currentsideUp = noOfSides
+    }
 }
